@@ -1,0 +1,66 @@
+div {
+  text-align: center;
+  width: 200px;
+}
+
+.calender {
+  display: grid;
+  grid-template-columns: repeat(6, 100%);
+}
+ol {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 0px;
+}
+li {
+  text-align: right;
+}
+.first-day {
+  grid-column-start: 2;
+}
+.first-day2 {
+  grid-column-start: 5;
+}
+.first-day3 {
+  grid-column-start: 6;
+}
+
+.first-day4 {
+  grid-column-start: 2;
+}
+
+.first-day5 {
+  grid-column-start: 4;
+}
+
+.first-day6 {
+  grid-column-start: 7;
+}
+.first-day7 {
+  grid-column-start: 2;
+}
+.first-day8 {
+  grid-column-start: 5;
+}
+.first-day9 {
+  grid-column-start: 1;
+}
+.first-day10 {
+  grid-column-start: 3;
+}
+.first-day11 {
+  grid-column-start: 6;
+}
+.first-day12 {
+  grid-column-start: 2;
+}
+.name-day {
+  background: #eee;
+  font-weight: bold;
+  text-align: center;
+}
+
+img:hover {
+  transform: scale(3);
+}
