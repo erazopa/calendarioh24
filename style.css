@@ -5,7 +5,7 @@ div {
   text-align: center;
   width: 200px;
   height: auto;
-  padding-left: 40px;
+  margin: 0 auto;
 }
 
 .calender {
@@ -81,7 +81,7 @@ img:hover {
     gap: 40px;
   }
   div {
-    padding-left: 105px;
+    margin-left: 10em;
   }
 
   img:hover {
@@ -93,9 +93,9 @@ img:hover {
   .calender {
     display: grid;
     grid-template-columns: repeat(6, 100%);
-    gap: 45px;
+    gap: 18px;
   }
   div {
-    padding-left: 0px;
+    margin: 0;
   }
 }
