@@ -1,17 +1,24 @@
+* {
+  background-color: rgb(4, 4, 73);
+}
 div {
   text-align: center;
   width: 200px;
+  height: auto;
+  padding-left: 40px;
 }
 
 .calender {
   display: grid;
-  grid-template-columns: repeat(6, 100%);
+  grid-template-columns: repeat(1, 100%);
+  gap: 12px;
 }
 ol {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   padding: 0px;
+  color: beige;
 }
 li {
   text-align: right;
@@ -56,11 +63,39 @@ li {
   grid-column-start: 2;
 }
 .name-day {
-  background: #eee;
   font-weight: bold;
   text-align: center;
+  color: beige;
+}
+h1 {
+  color: beige;
 }
 
 img:hover {
-  transform: scale(3);
+  transform: scale(2);
+}
+@media (min-width: 768px) {
+  .calender {
+    display: grid;
+    grid-template-columns: repeat(2, 100%);
+    gap: 40px;
+  }
+  div {
+    padding-left: 105px;
+  }
+
+  img:hover {
+    transform: scale(3);
+  }
+}
+
+@media (min-width: 1024px) {
+  .calender {
+    display: grid;
+    grid-template-columns: repeat(6, 100%);
+    gap: 45px;
+  }
+  div {
+    padding-left: 0px;
+  }
 }
