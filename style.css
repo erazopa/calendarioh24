@@ -24,40 +24,40 @@ li {
   text-align: right;
 }
 .first-day {
-  grid-column-start: 2;
+  grid-column-start: 4;
 }
 .first-day2 {
-  grid-column-start: 5;
+  grid-column-start: 7;
 }
 .first-day3 {
-  grid-column-start: 6;
+  grid-column-start: 7;
 }
 
 .first-day4 {
-  grid-column-start: 2;
+  grid-column-start: 3;
 }
 
 .first-day5 {
-  grid-column-start: 4;
+  grid-column-start: 5;
 }
 
 .first-day6 {
-  grid-column-start: 7;
+  grid-column-start: 0;
 }
 .first-day7 {
-  grid-column-start: 2;
-}
-.first-day8 {
-  grid-column-start: 5;
-}
-.first-day9 {
-  grid-column-start: 1;
-}
-.first-day10 {
   grid-column-start: 3;
 }
-.first-day11 {
+.first-day8 {
   grid-column-start: 6;
+}
+.first-day9 {
+  grid-column-start: 2;
+}
+.first-day10 {
+  grid-column-start: 4;
+}
+.first-day11 {
+  grid-column-start: 7;
 }
 .first-day12 {
   grid-column-start: 2;
