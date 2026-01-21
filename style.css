@@ -23,6 +23,12 @@ ol {
 li {
   text-align: right;
 }
+.imagenes-titulo {
+  display: flex;
+  flex-direction: column; /* Esto pone una imagen sobre la otra */
+  align-items: center; /* Centra las imágenes una respecto a la otra */
+  gap: 5px; /* Espacio vertical entre enero y febrero */
+}
 .first-day {
   grid-column-start: 4;
 }
@@ -69,6 +75,9 @@ li {
 }
 h1 {
   color: beige;
+  display: flex;
+  align-items: center; /* Alinea el texto con las imágenes verticalmente */
+  gap: 15px;
 }
 
 img:hover {
